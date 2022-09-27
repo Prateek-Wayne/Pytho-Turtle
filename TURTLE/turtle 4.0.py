@@ -1,0 +1,25 @@
+import turtle
+screen=turtle.getscreen()
+point=turtle.Turtle()
+# point.begin_fill()
+point.pencolor('lime')
+point.fillcolor('red')
+point.begin_fill()
+point.left(60)
+point.forward(100)
+point.left(60)
+point.forward(100)
+point.left(60)
+point.forward(100)
+point.left(60)
+point.forward(100)
+point.left(60)
+point.forward(100)
+point.left(60)
+
+point.forward(100)
+point.end_fill()
+# point.end_fill()
+
+
+turtle.mainloop()
